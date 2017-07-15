@@ -83,12 +83,15 @@ func array() int{
 		fmt.Println("the empty_array is empty")
 	}
 
-	// using make
+	//using make
 	a := make([]int,5)   	// len(a) = 5
 	b := make([]int,0,5)	// len(b) = 0 ; cap(b) = 5
 	fmt.Println(a)
 	fmt.Println(b)
-	printSlice("a",a)
-	printSlice("b",b)
+	//printSlice("a",a)
+	//printSlice("b",b)
+
+	//make new array
+	//array_new := make([],5,5) 
 	return i
 }
