@@ -92,6 +92,7 @@ func array() int{
 	//printSlice("b",b)
 
 	//make new array
-	//array_new := make([],5,5) 
+	array_new := make([]int,5,5) 
+	fmt.Println(array_new)
 	return i
 }
